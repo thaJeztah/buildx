@@ -8,6 +8,8 @@ replace github.com/moby/buildkit => github.com/thaJeztah/buildkit v0.0.0-2025011
 // FIXME(thaJeztah): testing moby master
 replace github.com/docker/docker => github.com/docker/docker v27.0.2-0.20250118005005-b28d13040d7b+incompatible
 
+replace github.com/docker/cli => github.com/docker/cli v27.0.2-0.20250115142401-f4a68da19595+incompatible
+
 require (
 	github.com/Masterminds/semver/v3 v3.2.1
 	github.com/Microsoft/go-winio v0.6.2

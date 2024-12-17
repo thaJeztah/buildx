@@ -229,7 +229,7 @@ github.com/davecgh/go-spew/spew
 # github.com/distribution/reference v0.6.0
 ## explicit; go 1.20
 github.com/distribution/reference
-# github.com/docker/cli v27.5.0+incompatible
+# github.com/docker/cli v27.5.0+incompatible => github.com/docker/cli v27.0.2-0.20250115142401-f4a68da19595+incompatible
 ## explicit
 github.com/docker/cli/cli
 github.com/docker/cli/cli-plugins/hooks
@@ -311,7 +311,6 @@ github.com/docker/docker/pkg/archive
 github.com/docker/docker/pkg/atomicwriter
 github.com/docker/docker/pkg/homedir
 github.com/docker/docker/pkg/idtools
-github.com/docker/docker/pkg/ioutils
 github.com/docker/docker/pkg/jsonmessage
 github.com/docker/docker/pkg/namesgenerator
 github.com/docker/docker/pkg/stdcopy
@@ -1383,3 +1382,4 @@ sigs.k8s.io/yaml
 sigs.k8s.io/yaml/goyaml.v2
 # github.com/moby/buildkit => github.com/thaJeztah/buildkit v0.0.0-20250118010244-7cb8d74841c1
 # github.com/docker/docker => github.com/docker/docker v27.0.2-0.20250118005005-b28d13040d7b+incompatible
+# github.com/docker/cli => github.com/docker/cli v27.0.2-0.20250115142401-f4a68da19595+incompatible
