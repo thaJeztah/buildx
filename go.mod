@@ -5,6 +5,9 @@ go 1.22.0
 // https://github.com/moby/buildkit/pull/5602 (bump_engine branch)
 replace github.com/moby/buildkit => github.com/thaJeztah/buildkit v0.0.0-20250118010244-7cb8d74841c1
 
+// FIXME(thaJeztah): testing moby master
+replace github.com/docker/docker => github.com/docker/docker v27.0.2-0.20250118005005-b28d13040d7b+incompatible
+
 require (
 	github.com/Masterminds/semver/v3 v3.2.1
 	github.com/Microsoft/go-winio v0.6.2
